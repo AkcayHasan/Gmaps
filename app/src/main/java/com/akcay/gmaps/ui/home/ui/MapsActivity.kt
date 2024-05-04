@@ -1,4 +1,4 @@
-package com.akcay.gmaps.ui.home
+package com.akcay.gmaps.ui.home.ui
 
 import android.content.Intent
 import android.location.Location

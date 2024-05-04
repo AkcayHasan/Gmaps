@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.akcay.gmaps.ui.home.MapsActivity
+import com.akcay.gmaps.ui.home.ui.MapsActivity
 import com.akcay.gmaps.permissions.CheckForPermission
 import com.akcay.gmaps.util.Constants.PERMISSION_REQUEST_CODE
 
