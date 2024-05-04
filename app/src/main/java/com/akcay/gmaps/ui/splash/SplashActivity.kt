@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.akcay.gmaps.ui.home.MapsActivity
@@ -38,7 +39,7 @@ class SplashActivity: AppCompatActivity() {
                     startActivity(Intent(this, MapsActivity::class.java))
                     finish()
                 } else {
-                    // TODO: alertDialog göster
+                    Toast.makeText(this, "İlerlemek için izin vermeniz gerekiyor..", Toast.LENGTH_LONG).show()
                 }
                 return
             }

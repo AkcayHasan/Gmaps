@@ -13,6 +13,7 @@ googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
 playServicesMaps = "18.2.0"
 playServicesLocation = "19.0.1"
 splashScreen = "1.0.1"
+lifecycleScope = "2.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,7 +26,8 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
-splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen"}
+splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen" }
+lifecycle-scope = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleScope" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
