@@ -27,12 +27,6 @@ import kotlinx.coroutines.flow.onEach
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
-    // TODO: kullanıcının konumu izlenecek ve her 100 metrede marker güncellenecek  ----> DONE
-    // TODO: konum izleme ön planda ve arka planda çalışacak ----> DONE
-    // TODO: kullanıcı manuel olarak izlemeyi açıp kapatabilecek ----> DONE
-    // TODO: kullanıcı ekranda iki nokta arasında rota belirleyebilmeli ve bu rotayı istediğinde silebilmeli
-    // TODO: kullanıcı rota belirlediğinde bunu silmedikçe uygulama arka plana alındığında da ekranda kalmalı
-
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
     private lateinit var gMapsLocationClient: GMapsLocationClient
